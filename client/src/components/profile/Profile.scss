@@ -1,0 +1,104 @@
+.Profile {
+  margin-top: 60px;
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  .left-part {
+    flex: 2;
+  }
+
+  .right-part {
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  .profile-card {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+
+    .user-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .user-name,
+    .follower-info {
+      margin-top: 12px;
+    }
+    .bio {
+      margin-top: 6px;
+    }
+
+    .follower-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .line {
+      text-align: start;
+      margin-block: 16px;
+      width: 99%;
+      height: 1px;
+      background-color: rgb(199, 197, 197);
+    }
+
+    .per-info {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      .information {
+        display: flex;
+        gap: 20px;
+      }
+    }
+    .personalLink {
+      text-align: start;
+      h4 {
+        padding-bottom: 4px;
+      }
+      .link-Container {
+        text-align: start;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .social-link {
+          display: flex;
+          gap: 15px;
+          justify-content: center;
+
+          img {
+            width: 20px;
+            height: 20px;
+            align-self: center;
+          }
+
+          .hoverLink {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            p {
+              font-size: 0.825rem;
+              font-weight: 550;
+            }
+          }
+        }
+      }
+    }
+
+    .follow,
+    .Update-profile {
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .follow-link {
+      color: var(--accent-color);
+    }
+  }
+}

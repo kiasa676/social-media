@@ -1,0 +1,19 @@
+.count {
+  display: flex;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 16px;
+  margin-left: 30px;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  color: #3ea6ff;
+  cursor: pointer;
+  h2 {
+    font-size: 0.95rem;
+    color: #3ea6ff;
+  }
+}
+.count:hover {
+  background-color: rgb(236, 230, 230);
+}

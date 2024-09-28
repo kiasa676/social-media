@@ -1,0 +1,59 @@
+.Comment-input {
+  .form {
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+
+    display: flex;
+    .Avatar {
+      height: 40px;
+      width: 40px;
+      .png {
+        width: 38px;
+        height: 38px;
+        border-radius: 19px;
+      }
+    }
+
+    .input-emoji {
+      display: flex;
+      flex-basis: 80%;
+      position: relative;
+
+      input {
+        width: 100%;
+        height: 44px;
+        padding-left: 2px;
+        outline: none;
+
+        border-bottom: #181818 solid;
+        text-decoration: none;
+        margin-left: 6px;
+        background-color: #f3f3f3;
+      }
+      input::placeholder {
+        font-size: 1rem;
+      }
+      .emoji-icon {
+        background-image: url(https://riyanegi.github.io/react-comments-section/static/media/f86f932721d4cf30.bc47e1a4.svg);
+        width: 24px;
+        height: 30px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 15px;
+      }
+    }
+    .postBtn {
+      border: 2px solid #00c3ff;
+      border-radius: 8px;
+      background-color: #00c3ff;
+      color: #fff;
+      font-weight: bolder;
+      margin-left: 15px;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 5px 20px;
+    }
+  }
+}

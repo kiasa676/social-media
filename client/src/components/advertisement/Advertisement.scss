@@ -1,0 +1,49 @@
+.advertisement {
+  border-radius: 8px;
+  //   background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  .Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: #666;
+  }
+  .Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-con {
+    width: 300px;
+    border-radius: 8px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      font-size: 0.9rem;
+      font-weight: normal;
+      color: #666;
+    }
+    h4 {
+      font-weight: 400;
+    }
+  }
+  .disc {
+    p {
+      font-size: 0.8rem;
+      color: #666;
+    }
+    padding-bottom: 4px;
+  }
+}

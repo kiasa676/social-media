@@ -1,0 +1,46 @@
+.Feed {
+  margin-top: 60px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f7f5f7;
+
+  .container {
+    display: flex;
+    gap: 30px;
+    // background-color: white;
+  }
+  .left-part {
+    .createPost {
+      background-color: white;
+    }
+    flex: 2;
+    // background-color: white;
+    .feedData {
+      background-color: white;
+    }
+  }
+  .right-part {
+    margin-top: 20px;
+    flex: 1;
+    background-color: white;
+    height: fit-content;
+    padding: 20px;
+  }
+  .title {
+    margin-bottom: 12px;
+    background-color: white;
+  }
+
+  .suggestion {
+    margin-top: 40px;
+    background-color: white;
+  }
+}
+.ads {
+  background-color: white;
+  z-index: 0;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  width: 325px;
+}
